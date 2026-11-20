@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>주소가 옮겨졌습니다</title>
+<script>
+(function () {
+  var moved = "church-allinone worship-caster raon-music-sheet accounting budget easydeck raon-planner".split(" ");
+  var first = location.pathname.split("/")[1];
+  if (moved.indexOf(first) !== -1) {
+    location.replace("https://raondh.github.io" + location.pathname + location.search + location.hash);
+  }
+})();
+</script>
+</head>
+<body style="font-family:sans-serif;padding:2rem;line-height:1.6">
+<p>페이지를 찾을 수 없습니다.</p>
+</body>
+</html>
